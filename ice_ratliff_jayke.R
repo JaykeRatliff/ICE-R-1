@@ -33,10 +33,10 @@ comparison = function(arg1, arg2) {
   return(result_text)
 }
 
-  if(arg1 < arg2) {
+  if(arg1 < arg2)
     v = t + u
     result_text = paste'('arg2 is greater than arg1 and ',v)
-  } else{
+  } else {
     v = t + u
 		result_text = paste('arg1 is not greater than arg2 and ', v)
 	}
@@ -56,7 +56,4 @@ for(lunches in lunches){
 }
 
 
-
-lunches = c('chicken','soy sauce','sugar','sesame oil')
-for(lunches in lunches){
-  print(paste("Food",lunches))}
+The for loop is a preferable choice when the number of iterations is unkown. Knowing that the loop must exit immediatley when it sees sugar eliminates this option. 
